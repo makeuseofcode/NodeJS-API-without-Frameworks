@@ -8,7 +8,7 @@ const blogSchema = mongoose.Schema({
 
   body: {
     type: String,
-    required: [true, "Blog must have a title"],
+    required: [true, "Blog must have a body"],
   },
 });
 
